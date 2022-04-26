@@ -13,13 +13,16 @@ This project is developed for our CVPR 2022 paper: [CycleMix: A Holistic Strateg
 Please also cite this paper if you are using CycleMix for your research.
 
 # Datasets
-1. The MSCMR dataset with mask annotations can be downloaded from [MSCMRseg](https://zmiclab.github.io/zxh/0/mscmrseg19/data.html) 
+1. The MSCMR dataset with mask annotations can be downloaded from [MSCMRseg](https://zmiclab.github.io/zxh/0/mscmrseg19/data.html).
 2. The scribble annotations of MSCMRseg have been released in [MSCMR_scribbles](https://github.com/BWGZK/CycleMix/tree/main/MSCMR_scribbles).
+3. The MSCMR dataset used for training could be directly downloaded from [MSCMR_dataset](https://github.com/BWGZK/CycleMix/tree/main/MSCMR_dataset). 
 
 # Usage
-1. Firstly, set the "dataset" parameter in main.py, line 76, to the name of dataset, i.e., "MSCMR_dataset". Then, set the "output_dir" in main.py, line 79, as the path to save the checkpints. Finally, set the dataset path in /data/mscmr.py, line 110, to your data path where the dataset is located in.
-2. Check your GPU devices and modify the "GPU_ids" parameter in main.py, line 83 and "CUDA_VISIBLE_DEVICES" in run.sh.
-3. Start to train by sh run.sh.
+1. Set the "dataset" parameter in main.py, line 76, to the name of dataset, i.e., "MSCMR_dataset".
+2. Set the "output_dir" in main.py, line 79, as the path to save the checkpints. 
+3. Download the dataset, for example, the [MSCMR_dataset](https://github.com/BWGZK/CycleMix/tree/main/MSCMR_dataset). Then, Set the dataset path in /data/mscmr.py, line 110, to your data path where the dataset is located in.
+4. Check your GPU devices and modify the "GPU_ids" parameter in main.py, line 83 and "CUDA_VISIBLE_DEVICES" in run.sh.
+5. Start to train by sh run.sh.
 ```
 CUDA_LAUNCH_BLOCKING=1 CUDA_VISIBLE_DEVICES=5 nohup python main.py --mixup_alpha 0.5 --graph True --n_labels 3 --eta 0.2 --beta 1.2 --gamma 0.5 --neigh_size 4 --transport True --t_size 4 --t_eps 0.8 &
 ```
