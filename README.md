@@ -29,11 +29,12 @@ CUDA_LAUNCH_BLOCKING=1 CUDA_VISIBLE_DEVICES=5 nohup python main.py --mixup_alpha
 
 # Requirement
 
-This code has been tested with
-Python 3.8.5
-torch  1.7.0
-torchvision 0.8.0
-gco-wrapper (https://github.com/Borda/pyGCO)
+This code has been tested with  
+Python 3.8.5  
+torch  1.7.0  
+torchvision 0.8.0  
+gco-wrapper (https://github.com/Borda/pyGCO)  
+
 
 
 If you have any problems, please feel free to contact us. We will release the trained models as soon as possible, thanks for your attention.
