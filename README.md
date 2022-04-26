@@ -1,9 +1,6 @@
-# CycleMix
+# CycleMix: A Holistic Strategy for Medical Image Segmentation from Scribble Supervision
 
-The annotated scribbles for training set of [MSCMRseg](https://zmiclab.github.io/zxh/0/mscmrseg19/data.html) have been released in [MSCMR_scribbles](https://github.com/BWGZK/CycleMix/tree/main/MSCMR_scribbles).
-The code has been released. We will release the trained models as soon as possible, thanks for your attention.
-
-For more information about CycleMix, please read the following paper:
+This project is developed for our CVPR 2022 paper: [CycleMix](https://arxiv.org/abs/2203.01475). For more information about CycleMix, please read the following paper:
 
 ```
 @article{zhang2022cyclemix,
@@ -13,5 +10,15 @@ For more information about CycleMix, please read the following paper:
   year={2022}
 }
 ```
+Please also cite this paper if you are using CycleMix for your research.
 
-Please also cite this paper if you are using CycleMix for your research!
+# Datasets
+1. The MSCMR dataset with mask annotations can be downloaded from [MSCMRseg](https://zmiclab.github.io/zxh/0/mscmrseg19/data.html) 
+2. The scribble annotations of MSCMRseg have been released in [MSCMR_scribbles](https://github.com/BWGZK/CycleMix/tree/main/MSCMR_scribbles).
+
+# Usage
+
+
+We will release the trained models as soon as possible, thanks for your attention.
+
+# 
