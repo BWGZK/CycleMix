@@ -20,7 +20,7 @@ Please also cite this paper if you are using CycleMix for your research.
 
 # Usage
 1. Set the "dataset" parameter in main.py, line 76, to the name of dataset, i.e., "MSCMR_dataset".
-2. Set the "output_dir" in main.py, line 79, as the path to save the checkpints. 
+2. Set the "output_dir" in main.py, line 79, as the path to save the checkpoints. 
 3. Download the dataset, for example, the [MSCMR_dataset](https://github.com/BWGZK/CycleMix/tree/main/MSCMR_dataset). Then, Set the dataset path in /data/mscmr.py, line 110, to your data path where the dataset is located in.
 4. Check your GPU devices and modify the "GPU_ids" parameter in main.py, line 83 and "CUDA_VISIBLE_DEVICES" in run.sh.
 5. Start to train by sh run.sh.
