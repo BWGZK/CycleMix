@@ -1,6 +1,6 @@
 # CycleMix: A Holistic Strategy for Medical Image Segmentation from Scribble Supervision
 
-This project is developed for our CVPR 2022 paper: [CycleMix](https://arxiv.org/abs/2203.01475). For more information about CycleMix, please read the following paper:
+This project is developed for our CVPR 2022 paper: [CycleMix: A Holistic Strategy for Medical Image Segmentation from Scribble Supervision](https://arxiv.org/abs/2203.01475). For more information about CycleMix, please read the following paper:
 
 ```
 @article{zhang2022cyclemix,
