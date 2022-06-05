@@ -1,5 +1,5 @@
 # CycleMix: A Holistic Strategy for Medical Image Segmentation from Scribble Supervision
-![avatar](CycleMix.png)
+![avatar](CycleMix.png){:width="70%"}
 This project is developed for our CVPR 2022 paper: [CycleMix: A Holistic Strategy for Medical Image Segmentation from Scribble Supervision](https://arxiv.org/abs/2203.01475). Our code is implemented based on the [PuzzleMix](https://github.com/snu-mllab/PuzzleMix), but is also applicable to other mixup-based augmentation methods. For more information about CycleMix, please read the following paper:
 
 ```
