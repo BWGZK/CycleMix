@@ -50,4 +50,4 @@ gco-wrapper (https://github.com/Borda/pyGCO)
 
 
 
-If you have any problems, please feel free to contact us. We will release the trained models as soon as possible. Thanks for your attention.
+If you have any problems, please feel free to contact us. Thanks for your attention.
